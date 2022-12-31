@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap-grid.min.css"
     integrity="sha512-Aa+z1qgIG+Hv4H2W3EMl3btnnwTQRA47ZiSecYSkWavHUkBF2aPOIIvlvjLCsjapW1IfsGrEO3FU693ReouVTA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="asset/css/glider.min.css"> -->
   <link rel="stylesheet" type="text/css" href="asset/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <title>Austin Growth</title>
 </head>
 
@@ -44,14 +46,13 @@
       <div class="menu">
         <nav class="top-nav">
           <ul>
-            <li><a class="white-default" href="index.html">Home</a></li>
-            <li><a class="white-default" href="#">About US</a></li>
-            <li><a class="white-default" href="#">Team</a></li>
-            <li><a class="white-default" href="#">Services</a></li>
-            <li><a class="white-default" href="#">Properties</a></li>
-            <li><a class="white-default" href="#">AGV benefits</a></li>
-            <li><a class="white-default" href="#">Blog</a></li>
-            <li><a class="white-default" href="#">Contacts</a></li>
+            <li><a class="white-default" href="#money" id="menu-money">About US</a></li>
+            <li><a class="white-default" href="#team" id="menu-team">Team</a></li>
+            <li><a class="white-default" href="#services" id="menu-services">Services</a></li>
+            <li><a class="white-default" href="#portfolio" id="menu-portfolio">Properties</a></li>
+            <li><a class="white-default" href="#benefits" id="menu-benefits">AGV benefits</a></li>
+            <li><a class="white-default" href="#blog" id="menu-blog">Blog</a></li>
+            <li><a class="white-default" href="#contacts" id="menu-contacts">Contacts</a></li>
           </ul>
         </nav>
       </div>
@@ -60,19 +61,21 @@
     </header>
 
 
-  <section class="hero-scr">
+  <section class="hero-scr" id="hero">
     <div class="hero-scr-content">
     <div class="hero-scr-txt container">
       <div class="hero-title">
-        <h1 class="white">Austin Growth Ventures</h1>
+        <h1 class="white title-word-1">Austin</h1>
+        <h1 class="white title-word-2">Growth</h1>
+        <h1 class="white title-word-3">Ventures</h1>
       </div>
       <div class="hero-text">
-        <p class="white">
+        <p class="white hero-text-1">
           We are a private real estate investment firm based in Austin, TX
           focused on acquiring, repositioning and developing property in the
           Greater Austin area.
         </p>
-        <p class="white">
+        <p class="white hero-text-2">
           AGV is experienced in developing and managing projects through
           different market cycles and for the long term. We target assets that
           are undeveloped or are underperforming to build long term investor
@@ -91,7 +94,7 @@
   </section>
 
   <main class="container">
-    <section class="money-scr">
+    <section class="money-scr" id="money">
       <div class="money-txt">
         <div class="money-title">
           <h2 class="black">
@@ -121,7 +124,7 @@
       </div>
     </section>
 
-    <section class="mission-scr">
+    <section class="mission-scr" id="mission"
       <div class="mission-title">
         <h2 class="black">
           <span class="blue">MISSION.</span> To create significant investor
@@ -144,35 +147,27 @@
           </p>
         </div>
         <div class="mission-col">
-          <h5 class="blue">About us</h5>
+          <h5 class="blue">Strategy</h5>
           <p>
-            Austin Growth Ventures ("AGV") is a private real estate investment
-            company based in Austin, Texas. The company's focus is on real
-            estate transactions in growth corridors around Austin.
+            AGV's mission is to provide profits to investors and owners of real estate through the competent formation of the package of assets and the use of market dynamics. The company's specificity consists in providing access to real estate market opportunities to all investors.
           </p>
           <p>
-            It acquires, develops and manages properties with both internal
-            equity and outside investors, with the goal of significant
-            appreciation alongside quarterly dividend payments.
+            At the same time, the company maintains a high level of profitability, as in global investment holdings, and minimizes risks.
           </p>
         </div>
         <div class="mission-col">
-          <h5 class="blue">About us</h5>
+          <h5 class="blue">Principles</h5>
           <p>
-            Austin Growth Ventures ("AGV") is a private real estate investment
-            company based in Austin, Texas. The company's focus is on real
-            estate transactions in growth corridors around Austin.
+            AGV activity is based on the key need of both clients and partners and founders of the investment company for high profitability.
           </p>
           <p>
-            It acquires, develops and manages properties with both internal
-            equity and outside investors, with the goal of significant
-            appreciation alongside quarterly dividend payments.
+            The more comfortable and beneficial relations will be built with investors, the more and faster the business will develop. Exactly win-win for today is the key principle in the company's work.
           </p>
         </div>
       </div>
     </section>
 
-    <section class="team-scr">
+    <section class="team-scr" id="team">
       <div class="team-title">
         <h2 class="black"><span class="blue">Leadership Team</span></h2>
       </div>
@@ -190,8 +185,8 @@
               </p>
             </div>
             <div class="arrow-right-btn">
-              <a href="#" class="blue-default">Read more</a>
-              <a class="arrow" href="#"><img src="asset/img/arrow-right.svg" alt=""></a>
+              <p class="blue-default">Read more</p>
+              <p class="arrow"><img src="asset/img/arrow-right.svg" alt=""></p>
             </div>
           </div>
         </div>
@@ -209,8 +204,8 @@
               </p>
             </div>
             <div class="arrow-right-btn">
-              <a href="#" class="blue-default">Read more</a>
-              <a class="arrow" href="#"><img src="asset/img/arrow-right.svg" alt=""></a>
+              <p class="blue-default">Read more</p>
+              <p class="arrow"><img src="asset/img/arrow-right.svg" alt=""></p>
             </div>
           </div>
         </div>
@@ -224,7 +219,7 @@
       </div>
     </section>
 
-    <div class="services-scr">
+    <div class="services-scr" id="services">
       <div class="services-txt">
         <div class="services-title">
           <h2>
@@ -233,7 +228,7 @@
           </h2>
         </div>
         <div class="services-desc">
-          <h6 class="blue">Real Estate Investment</h6>
+          <h6 class="blue bold">Real Estate Investment</h6>
           <div class="desc-row">
             <p>
               You can become a limited partner in a future new project. AGV is
@@ -248,7 +243,7 @@
               original investment between 12-24 months.
             </p>
           </div>
-          <h6 class="blue">Advisory Services</h6>
+          <h6 class="blue bold">Advisory Services</h6>
           <p>
             You can partner with AGV to underwrite and close real estate and
             development opportunities:
@@ -267,22 +262,28 @@
               <li>Construction design, budgeting and marketing analysis</li>
             </ul>
           </div>
+          <div class="commercial-project-btn">
+            <p class="blue-default">Commercial projects</p>
+            <div class="project-btn">
+              <img src="asset/img/arrow-up-right.svg" alt="">
+            </div>
+          </div>
         </div>
       </div>
       <div class="services-scr-img">
         <img src="asset/img/services.jpg" alt="" />
       </div>
     </div>
-
-    <section class="portfolio-src">
-      <div class="portfolio-title">
+</main>
+    <section class="portfolio-src" id="portfolio">
+      <div class="portfolio-title container">
         <h2>
           <span class="blue">PORTFOLIO.</span> Real estate investments and
           successfully completed projects
         </h2>
       </div>
       <div class="portfolio-map">
-        <img src="asset/img/map-test.jpg" alt="" style="width: 100%" />
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.871325014501!2d-97.81812198428564!3d30.26924728180119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865b4aed0e5631c7%3A0x5ab288b3bbaa8f83!2s1910%20Stoneridge%20Terrace%2C%20Austin%2C%20TX%2078746%2C%20USA!5e0!3m2!1sen!2sua!4v1672404077820!5m2!1sen!2sua" width="100%" height="850" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div class="portfolio-cards">
         <div class="portfolio-card">
@@ -295,7 +296,7 @@
             </div>
           </div>
           <div class="portfolio-card-overlay">
-            <a href="#" class="blue-default">More</a>
+            <p class="blue-default">More</p>
           </div>
         </div>
         <div class="portfolio-card">
@@ -308,7 +309,7 @@
             </div>
           </div>
           <div class="portfolio-card-overlay">
-            <a href="#" class="blue-default">More</a>
+            <p class="blue-default">More</p>
           </div>
         </div>
         <div class="portfolio-card">
@@ -321,7 +322,7 @@
             </div>
           </div>
           <div class="portfolio-card-overlay">
-            <a href="#" class="blue-default">More</a>
+            <p class="blue-default">More</p>
           </div>
         </div>
         <div class="portfolio-card">
@@ -334,7 +335,7 @@
             </div>
           </div>
           <div class="portfolio-card-overlay">
-            <a href="#" class="blue-default">More</a>
+            <p class="blue-default">More</p>
           </div>
         </div>
         <div class="portfolio-card">
@@ -347,7 +348,7 @@
             </div>
           </div>
           <div class="portfolio-card-overlay">
-            <a href="#" class="blue-default">More</a>
+            <p class="blue-default">More</p>
           </div>
         </div>
         <div class="portfolio-card">
@@ -360,7 +361,7 @@
             </div>
           </div>
           <div class="portfolio-card-overlay">
-            <a href="#" class="blue-default">More</a>
+            <p class="blue-default">More</p>
           </div>
         </div>
         <div class="portfolio-card">
@@ -373,19 +374,23 @@
             </div>
           </div>
           <div class="portfolio-card-overlay">
-            <a href="#" class="blue-default">More</a>
+            <p class="blue-default">More</p>
           </div>
         </div>
       </div>
     </section>
-
-    <section class="whyus-scr">
+  <main class="container">
+    <section class="whyus-scr"  id="benefits">
       <div class="benefits-title">
         <h2>Why Austin Growth Ventures?</h2>
       </div>
+      <div class="benefits-title-desctop">
+        <h2>Why </h2>
+        <h2>Austin Growth Ventures?</h2>
+      </div>
       <div class="benefits-col">
         <div class="col-block">
-          <h6 class="blue">Competent Management</h6>
+          <h6 class="blue bold">Competent Management</h6>
           <p>
             At the head of the investment company are experts with more than
             10 years of experience in finance and real estate. This allows us
@@ -395,7 +400,7 @@
           </p>
         </div>
         <div class="col-block">
-          <h6 class="blue">The best partnership at all levels</h6>
+          <h6 class="blue bold">The best partnership at all levels</h6>
           <p>
             AGV carefully selects contractors and financial partners to work
             on each property. In addition, the company's experts are
@@ -405,7 +410,7 @@
         </div>
 
         <div class="col-block">
-          <h6 class="blue">Transparent terms of cooperation</h6>
+          <h6 class="blue bold">Transparent terms of cooperation</h6>
           <p>
             As part of co-investment, each partner receives favorable, clearly
             spelled out terms of transactions, which are strictly enforced.
@@ -414,7 +419,7 @@
           </p>
         </div>
         <div class="col-block">
-          <h6 class="blue">Safe investing</h6>
+          <h6 class="blue bold">Safe investing</h6>
           <p>
             AGV experts have built processes so that investors are confident
             in the assets of their investments. This is a clearly calculated
@@ -427,13 +432,13 @@
       </div>
     </section>
 
-    <section class="blog-scr">
+    <section class="blog-scr" id="blog">
       <div class="blog-title">
-        <h2><span class="blue">Blog.</span>Useful articles and advices</h2>
+        <h2><span class="blue">Blog. </span>Useful articles and advices</h2>
       </div>
       <div class="blog-cards">
         <div class="blog-card">
-          <h6 class="blue">
+          <h6 class="blue bold">
             Introduction to investing in the ‘missing middle’ and workforce
             housing
           </h6>
@@ -454,8 +459,8 @@
             <img src="asset/img/post1.jpg" alt="" />
           </div>
         </div>
-        <div class="blog-card">
-          <h6 class="blue">
+        <div class="blog-card ">
+          <h6 class="blue bold">
             Introduction to investing in the ‘missing middle’ and workforce
             housing
           </h6>
@@ -476,8 +481,8 @@
             <img src="asset/img/post2.jpg" alt="" />
           </div>
         </div>
-        <div class="blog-card">
-          <h6 class="blue">
+        <div class="blog-card ">
+          <h6 class="blue bold">
             Introduction to investing in the ‘missing middle’ and workforce
             housing
           </h6>
@@ -498,8 +503,8 @@
             <img src="asset/img/post3.jpg" alt="" />
           </div>
         </div>
-        <div class="blog-card">
-          <h6 class="blue">
+        <div class="blog-card ">
+          <h6 class="blue bold">
             Introduction to investing in the ‘missing middle’ and workforce
             housing
           </h6>
@@ -523,7 +528,7 @@
       </div>
     </section>
 
-    <div class="contacts-scr">
+    <div class="contacts-scr" id="contacts">
       <div class="contacts-text">
         <h2>Contacts</h2>
         <div class="contacts-row">
@@ -568,7 +573,7 @@
           <input type="text" placeholder="Name" />
           <input type="tel" placeholder="Phone number" />
           <input type="email" placeholder="E-mail" />
-          <textarea name="" id="" cols="30" rows="5" placeholder="Message"></textarea>
+          <textarea name="" id="" cols="30" rows="3" placeholder="Message"></textarea>
           <div class="submit">
             <div class="checkbox">
               <input type="checkbox" name="" id="policy-check" />
@@ -622,16 +627,12 @@
         <div class="team-inner-text desctop">
           <div class="team-inner-title">
           <h3>Stephen Gibson</h3>
-          <h6>CEO of Austin Growth Ventures, is an active investor and developer in Austin, Texas</h6>
+          <h4>CEO of Austin Growth Ventures, is an active investor and developer in Austin, Texas</h4>
         </div>
           <div class="team-inner-desc">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            sollicitudin, nisl eget ultricies tincidunt, nunc nisl aliquam
-            libero, eget lacinia nunc lorem eget dolor. Sed sollicitudin, nisl
-            eget ultricies tincidunt, nunc nisl aliquam libero, eget lacinia
-            nunc lorem eget dolor.
-          </p>
+          <h6 class="bold">
+            Stephen has a management background, experience with lending, and expertise in real estate selection. It is this set of qualities and skills that allows Stephen to work only on promising shark-level deals that are sure to turn a profit
+          </h6>
           <p>Steven is an active investor and developer in Austin, Texas. Originally from Chicago, Steven and his family have been in Austin since 2016. During this time in the city, he has acquired over 50 acres of real estate to be developed and has raised or refinanced over $600 million in debt and equity.</p>
           <p>Steven is an active investor and developer in Austin, Texas. Originally from Chicago, Steven and his family have been in Austin since 2016. During this time in the city, he has acquired over 50 acres of real estate to be developed and has raised or refinanced over $600 million in debt and equity.</p>
         </div>
@@ -639,6 +640,38 @@
       </div>
 
 
+    </div>
+    <div class="project-details" style="display: none;">
+      <div class="project-head-img">
+        <img src="asset/img/project-head-img-min.webp" alt="">
+      </div>
+      <div class="project-text">
+        <div class="project-title">
+          <h2>3969 E HWY 290.</h2>
+          <h3>Dripping Springs</h3>
+        </div>
+        <div class="project-description">
+          <p class="small">Acquisition Date</p>
+          <h3>February 2022</h3>
+          <p class="small">Lease Term</p>
+          <h3>10 years with 3 five-year extensions</h3>
+          <p class="small">Ownership Type</p>
+          <h3>General partnership</h3>
+          <p class="small">Goals</p>
+          <h3>Long Term Hold, future redevelopment</h3>
+          <p class="small">Timing</p>
+          <h3>End of Tenant Lease Term (25 Years)</h3>
+        </div>
+      </div>
+      <img src="asset/img/project-img-1-min.webp" alt="">
+      <img src="asset/img/project-img-2-min.webp" alt="">
+      <img src="asset/img/project-img-3-min.webp" alt="">
+      <img src="asset/img/project-img-4-min.webp" alt="">
+      <div class="project-footer">
+        <div class="project-back-btn">
+          <p class="white-default">Go back</p>
+        </div>
+      </div>
     </div>
     <div class="close-popup-btn" id="close-cross" style="display: none;">
       <img src="asset/img/cross.svg" alt="" />
@@ -742,10 +775,13 @@
             <p>Made by <img src="asset/img/trademark.svg" alt="" /></p>
           </div>
       </div>
-
     </div>
   </footer>
+
   <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Sly/1.6.1/sly.min.js" integrity="sha512-uR46GOwRUepFi2dzcatO3qpr4onAj46VC9ltPFIwaX8YXl5O18nVT/JnJZY7yqrrKUP0ngD/YjuatsJqCDpYyg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="asset/js/jquery.mousewheel.min.js"></script>
   <script src="asset/js/main.js"></script>
 </body>
 
